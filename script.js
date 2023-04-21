@@ -86,6 +86,18 @@ function playSingleRound(playerSelection, computerSelection) {
   return message;
 }
 
-console.log(playSingleRound("Rock", getComputerChoice()));
+//console.log(playSingleRound("Rock", getComputerChoice()));
 
 //console.log(getComputerChoice());
+
+// play 5th round
+
+function play5Rounds() {
+  for (let i = 1; i < 6; i++) {
+    let input = prompt("Please choose Rock or Paper Or Scissors");
+
+    console.log(playSingleRound(input, getComputerChoice()));
+  }
+}
+
+play5Rounds();
