@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 27, 27);
+}
+
+.container {
+}
+
+header {
+}
+
+h1 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 75px;
+}
+
+.container header h1 {
+  color: orange;
+  font-family: fantasy;
+}
+
+header,
+.container header h1 {
+  background-color: rgb(3, 17, 17);
+  height: 200px;
+}
+
+.game-instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: fantasy;
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: fantasy;
+  color: aliceblue;
+}
+
+.player-option,
+.computer-option {
+  height: 330px;
+  width: 330px;
+  background-color: rgb(190, 186, 186);
+}
+
+.show-user-computer-selection {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: orange;
+  font-size: 265px;
+}
+
+.player-option,
+.computer-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  height: 100px;
+}
+
+.computer-Score {
+  margin-left: 51px;
+}
+
+.player-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  height: 320px;
+}
+
+.rock,
+.paper,
+.scissor {
+  height: 330px;
+  width: 330px;
+  border-radius: 155px;
+}
+
+.rock {
+  background-color: rgb(230, 39, 9);
+  cursor: pointer;
+}
+
+.paper {
+  background-color: rgb(230, 39, 9);
+  cursor: pointer;
+}
+
+.scissor {
+  background-color: rgb(230, 39, 9);
+  cursor: pointer;
+}
+
+.rock-img {
+  border-radius: 96%;
+}
+
+p {
+  font-size: 175px;
+  background-color: rgb(230, 112, 9);
+  border-radius: 115%;
+}
