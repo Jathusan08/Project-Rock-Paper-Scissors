@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(27, 27, 27);
+  background-color: #5c5470;
 }
 
 .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  height: 85px;
 }
 
 h1 {
@@ -17,57 +21,54 @@ h1 {
   justify-content: center;
   align-items: center;
 
-  font-size: 75px;
-}
+  font-size: 50px;
 
-.container header h1 {
-  color: orange;
+  color: #faf0e6;
   font-family: fantasy;
+  padding-block: 20px;
+  background-color: #352f44;
 }
 
-header,
-.container header h1 {
-  background-color: rgb(3, 17, 17);
-  height: 200px;
+main {
+  background-color: #5c5470;
+  margin-bottom: 25px;
 }
 
 .game-instructions {
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-family: fantasy;
-  color: aliceblue;
+  color: #faf0e6;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: fantasy;
-  color: aliceblue;
+  color: #faf0e6;
+}
+
+.game-instructions h3 {
+  padding: 15px;
 }
 
 .player-option,
 .computer-option {
-  height: 330px;
-  width: 330px;
-  background-color: rgb(190, 186, 186);
+  color: #faf0e6;
+  font-size: 130px;
 }
 
 .show-user-computer-selection {
   display: flex;
-  gap: 30px;
+  gap: 120px;
   justify-content: center;
   align-items: center;
-}
-
-i {
-  color: orange;
-  font-size: 265px;
 }
 
 .player-option,
@@ -81,12 +82,9 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 75px;
-  height: 100px;
-}
+  gap: 55px;
 
-.computer-Score {
-  margin-left: 51px;
+  margin-bottom: 35px;
 }
 
 .player-options {
@@ -94,38 +92,40 @@ i {
   justify-content: center;
   align-items: center;
   gap: 45px;
-  height: 320px;
 }
 
-.rock,
-.paper,
-.scissor {
-  height: 330px;
-  width: 330px;
-  border-radius: 155px;
-}
-
-.rock {
-  background-color: rgb(230, 39, 9);
+.player-options button {
+  outline: none;
+  border-radius: 70px;
+  height: 130px;
+  width: 130px;
+  padding: 10px;
   cursor: pointer;
+  font-size: 55px;
+  background-color: #352f44;
+  border: none;
 }
 
-.paper {
-  background-color: rgb(230, 39, 9);
-  cursor: pointer;
+button:hover {
+  background-color: rgb(254, 250, 129);
 }
 
-.scissor {
-  background-color: rgb(230, 39, 9);
-  cursor: pointer;
+footer h3 {
+  text-align: center;
+  background-color: #352f44;
+  padding: 6px;
+  font-size: 20px;
 }
 
-.rock-img {
-  border-radius: 96%;
+footer {
+  margin-top: auto;
 }
 
-p {
-  font-size: 175px;
-  background-color: rgb(230, 112, 9);
-  border-radius: 115%;
+a {
+  color: #faf0e6;
+  background-color: #352f44;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
