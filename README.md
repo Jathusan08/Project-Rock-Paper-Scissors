@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors Game in JavaScript
 
-<img width="300" height="300" alt="image" src="https://github.com/Jathusan08/Project-Rock-Paper-Scissors/assets/36281788/f375a231-de8a-4165-b853-8b25ee4d4f4e">
+<img width="550" height="550" alt="image" src="https://github.com/Jathusan08/Project-Rock-Paper-Scissors/assets/36281788/f375a231-de8a-4165-b853-8b25ee4d4f4e">
 
 Welcome to the Rock, Paper, Scissors Game project! This JavaScript-based game allows you to play the classic Rock, Paper, Scissors game against the computer.
 
